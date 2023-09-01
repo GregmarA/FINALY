@@ -11,7 +11,7 @@ export default function App() {
 
         <div>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="facebook-f" />
+            <MDBIcon color='secondary' fab icon="facebook-f" />
           </a>
           <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />
