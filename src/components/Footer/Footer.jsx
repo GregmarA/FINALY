@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { MDBCol, MDBContainer, MDBFooter, MDBIcon, MDBRow } from 'mdb-react-ui-kit';
 
 export default function App() {
   return (
@@ -11,7 +11,7 @@ export default function App() {
 
         <div>
           <a href='' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon="facebook-f" />
+            <MDBIcon color='secondary' fab icon='facebook-f' />
           </a>
           <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="twitter" />
@@ -21,9 +21,6 @@ export default function App() {
           </a>
           <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon fab icon="linkedin" />
           </a>
           <a href='' className='me-4 text-reset'>
             <MDBIcon fab icon="github" />
@@ -40,19 +37,13 @@ export default function App() {
                 EVANGELISTAS DE YHWH
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+                Llevamos Pan de Vida a las Naciones
               </p>
             </MDBCol>
 
             <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
-              <p>
-                <a href='#!' className='text-reset'>
-                  Angular
-                </a>
-              </p>
-              <p>
+                           <p>
                 <a href='#!' className='text-reset'>
                   React
                 </a>
@@ -70,7 +61,7 @@ export default function App() {
             </MDBCol>
 
             <MDBCol md="3" lg="2" xl="2" className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>UTILIDADES</h6>
               <p>
                 <a href='#!' className='text-reset'>
                   Pricing
@@ -100,8 +91,8 @@ export default function App() {
                 New York, NY 10012, US
               </p>
               <p>
-                <MDBIcon icon="envelope" className="me-3" />
-                info@example.com
+                <MDBIcon icon="envelope" className="bi bi-envelope" />
+                evangelistasdeyhwh@gmail.com
               </p>
               <p>
                 <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
