@@ -1,6 +1,8 @@
 import React from "react"; 
 import { Container } from "react-bootstrap";
 import ItemsForms from "../../components/Admin/Forms/ItemsForms";
+import ItemsTable from "../../components/Admin/Table/ItemsTable";
+
 const AdminVistas = () => { 
     return (
         <Container className="my-5">
@@ -8,6 +10,7 @@ const AdminVistas = () => {
             <hr />
 
         <ItemsForms />
+        <ItemsTable/>
         
         </Container>
         
